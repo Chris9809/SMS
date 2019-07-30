@@ -65,8 +65,8 @@
 		<input type="hidden" id="totalPageCount" value="${page.total}"/>
 		  	<c:import url="rollpage.jsp">
 	          	<c:param name="totalCount" value="${page.count}"/>
-	          	<c:param name="currentPageNo" value="${page.index}"/>
-	          	<c:param name="totalPageCount" value="${page.total}"/>
+				<c:param name="currentPageNo" value="${page.index}"/>
+				<c:param name="totalPageCount" value="${page.total}"/>
           	</c:import>
     </div>
 </section>

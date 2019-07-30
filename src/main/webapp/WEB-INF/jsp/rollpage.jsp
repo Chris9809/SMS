@@ -17,7 +17,7 @@
 					<a href="javascript:page_nav(document.forms[0],1);">首页</a>
 					<a href="javascript:page_nav(document.forms[0],${page.index-1});">上一页</a>
 				</c:if>
-				<li>共${page.count }条记录&nbsp;&nbsp; ${page.index }/${page.total }页</li>
+				<li>共${page.count}条记录&nbsp;&nbsp; ${page.index }/${page.total }页</li>
 				<c:if test="${page.index < page.total }">
 					<a href="javascript:page_nav(document.forms[0],${page.index+1 });">下一页</a>
 					<a href="javascript:page_nav(document.forms[0],${page.count });">最后一页</a>

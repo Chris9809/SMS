@@ -77,6 +77,7 @@ public class UserController {
 				}
 				session.setAttribute("USER_CODE", user);
 				session.setMaxInactiveInterval(60000);
+				System.out.println(user);
 				return "frame";
 			} else {
 				model.addAttribute("error", "抱歉密码不正确");
